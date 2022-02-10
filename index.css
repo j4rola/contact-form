@@ -1,0 +1,44 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#contactform {
+    border: solid 1px black;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    margin-bottom: 15px;
+    width: 30%;
+    padding: 3px;
+}
+
+#message {
+    padding: 7px;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 55px; 
+    border-radius: 5px;
+
+}
